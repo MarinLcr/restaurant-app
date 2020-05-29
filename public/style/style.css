@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+h1,
+h2 {
+  font-family: "Lobster", cursive !important;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  text-align: center;
+  background-color: #d50e3c;
+  border-color: #d50e3c;
+  padding: 15px;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-right: 3em;
+  margin-bottom: 0px;
+}
+
+.header select {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  height: 100%;
+}
+
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 37px;
+  width: 125px;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+  margin-bottom: 8px;
+}
+
+.star-ratings-css-top {
+  color: #e7711b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+
+.restau_adress {
+  margin-bottom: 0;
+}
+
+.restau_avis {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.restau_comment {
+  width: 90%;
+}
+
+.filter_restaurant {
+  margin-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+.filter_restaurant #first-select {
+  margin-right: 20px;
+}
+
+.container-form {
+  margin-top: 3em;
+}
+
+.container_max {
+  margin: 0;
+  padding: 0;
+  width: auto !important;
+  max-width: 100% !important;
+  position: relative;
+}
+
+.container {
+  padding: 0px !important;
+}
+
+.restau-form {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border: 1px solid black;
+  z-index: 2;
+  padding: 2em;
+}
+
+.container_app {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.container_map {
+  position: initial !important;
+  width: 65%;
+}
+
+.container_restaurant {
+  width: 34%;
+  height: 500px;
+  overflow: scroll;
+  height: calc(90vh - 20px);
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.restaurant-list-container {
+  margin-bottom: 2em;
+}
+
+.button-list-container {
+  width: 100%;
+}
+
+.container_streetview {
+  overflow: hidden;
+}
+
+.container_streetview img {
+  height: 200px;
+}

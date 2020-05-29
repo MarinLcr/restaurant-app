@@ -1,0 +1,66 @@
+[
+   {
+      "restaurantName":"Bronco",
+      "address":"39 Rue des Petites Écuries, 35000 Rennes",
+      "lat":48.10324259999999,
+      "long":-1.7117917000000489,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Un excellent restaurant, j'y reviendrai ! Par contre il vaut mieux aimer la viande."
+         },
+         {
+            "stars":4,
+            "comment":"Tout simplement mon restaurant préféré !"
+         }
+      ]
+   }, 
+   {
+      "restaurantName":"Babalou",
+      "address":"4 Rue Lamarck, 35000 Rennes",
+      "lat":48.10566139999999,
+      "long":-1.6731150000000525,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Une minuscule pizzeria délicieuse cachée juste à côté du Sacré choeur !"
+         },
+         {
+            "stars":3,
+            "comment":"J'ai trouvé ça correct, sans plus"
+         }
+      ]
+   },
+   {
+      "restaurantName":"Adonis",
+      "address":"17 Rue Saint-Malo, 35000 Rennes",
+      "lat":48.1038903,
+      "long":-1.6743847999999844,
+      "ratings":[
+         {
+            "stars":4,
+            "comment":"Un petit restaurant libanais très sympathique et typique !"
+         },
+         {
+            "stars":2,
+            "comment":"Je m'attendais à mieux au niveau du service"
+         }
+      ]
+   },
+   {
+      "restaurantName":"Chawp Shop",
+      "address":"13 Rue de Penhoët, 35000 Rennes",
+      "lat":48.1215827,
+      "long":-1.7013554000000113,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Tout bonnement excellent !"
+         },
+         {
+            "stars":4,
+            "comment":"Très bon."
+         }
+      ]
+   }
+]
